@@ -1,0 +1,651 @@
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script defer src="js/script.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Rubik"
+      rel="stylesheet"
+    />
+    <style>
+      body { font-family: "Rubik"; font-style: normal; }
+    </style>
+    <title>Figma Clone</title>
+  </head>
+
+  <body>
+    <!--Pop Up Part Starts here-->
+    
+      <div id="overlay"></div>
+      <div class="waitlist" id="waitlist">
+        <div class="waitlist-header">
+          <div class="title">Join Waitlist</div>
+          <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div class="waitlist-para">
+          Register to join our web app waitlist where you would be able to
+          manage and track your shipment service
+        </div>
+        <form action="/" method="post"></form>
+          <div class="type">
+            <div class="full-name">Customer Type</div>
+            <div class="rectangle1">
+              <div id="border1" class="border1">
+                <div id="btnBusiness" class="business">Business</div>
+              </div>
+              <div id="border2" class="border2 active">
+                <div id="btnIndividual" class="individual">Individual</div>
+              </div>
+            </div>
+          </div>
+          <div class="name">
+            <div id="content1" class="f-name">Full Name</div>
+            <div class="rectangle2">
+              <div id="content2" class="plc1">Full Name</div>
+            </div>
+          </div>
+          <div class="ph-no">
+            <div class="ph-number">Phone Number</div>
+            <div class="rectangle3">
+              <div class="nu">+1</div>
+              <div class="arr">
+                <i class="arrow down"></i>
+              </div>
+              <div class="plc2">Enter Phone Number</div>
+            </div>
+          </div>
+          <div class="mail">
+            <div class="email">Email Address</div>
+            <div class="rectagle4">
+              <div class="plc3">Enter Email Address</div>
+            </div>
+          </div>
+          <div>
+            <div data-close-button class="rectangle5">
+              <div class="button">JOIN WAITING LIST</div>
+            </div>
+          </div>
+        </form>
+      </div>
+    <!--Pop Up Part endss here-->
+    <!--Navbar Part starts here-->
+    <div class="header">
+      <div class="navbar">
+        <img src="images/logo_3_1-removebg-preview 1.png" alt="" />
+        <ul>
+          <li><a
+              href="#AboutUs"
+              style="text-decoration: none; color:rgb(46, 42, 42)"
+            >About Us</a></li>
+          <li><a
+              href="#Services"
+              style="text-decoration: none; color:rgb(46, 42, 42)"
+            >Services</a></li>
+          <li><a
+              href="#ShipmentCalender"
+              style="text-decoration: none; color:rgb(46, 42, 42)"
+              ;
+            >Shipment Calender</a></li>
+          <li><a
+              href="#HowItWorks"
+              style="text-decoration: none; color:rgb(46, 42, 42)"
+              ;
+            >How It Works</a></li>
+          <li><a
+              href="#Pricing"
+              style="text-decoration: none; color:rgb(46, 42, 42)"
+            >Pricing</a></li>
+          <li><a
+              href="#OurLocation"
+              style="text-decoration: none; color:rgb(46, 42, 42)"
+            >Our Location</a></li>
+        </ul>
+        <button data-waitlist-target="#waitlist" id="btn1">
+          <a href="#"> JOIN WAITING LIST</a>
+        </button>
+      </div>
+
+      <div class="content">
+        <h1>
+          Nigeria logistics
+          <br />
+          simplified
+        </h1>
+        <p>
+          We make shipping fast and easy through air freight
+          <br />
+          Logistics at affordable prices.
+        </p>
+      </div>
+
+      <button id="btn2"><a href="#"> LET'S GET STARTED</a></button>
+
+      <div class="bgimg">
+        <img src="images/_Group_ (9) 1 (1).png" alt="" />
+      </div>
+
+      <div class="statistics">
+        <img src="images/approval 2.png" alt="" />
+        <div>
+          <h2>10000+</h2>
+          <p>Fast Delivery</p>
+        </div>
+        <div class="vl"></div>
+        <img src="images/Group1.png" alt="" />
+        <div>
+          <h2>150+</h2>
+          <p>Happy customers</p>
+        </div>
+        <div class="vl"></div>
+        <img src="images/locator 1.png" alt="" />
+        <div>
+          <h2>100+</h2>
+          <p>Nationwide Reach</p>
+        </div>
+      </div>
+    </div>
+
+    <!--Why You shoud chose us startss-->
+
+    <div class="container" id="AboutUs">
+      <!--video-->
+      <div>
+        <img src="images/Group 7.png" alt="" />
+        <img
+          style="
+            position: absolute;
+            width: 84px;
+            height: 84px;
+            left: 386px;
+            top: 1020px;
+          "
+          src="images/Group 5.png"
+          alt=""
+        />
+      </div>
+      <!--Right Part-->
+      <div class="mark">
+        <div>
+          <h1>
+            Why You Should<br />
+            Choose us?
+          </h1>
+        </div>
+
+        <div>
+          <div>
+            <div class="icon">
+              <img
+                style="
+                  width: 20px;
+                  height: 20px;
+                  margin-right: 5px;
+                  margin-top: 27px;
+                "
+                src="images/Shape.png"
+                alt=""
+              />Speed
+            </div>
+            <p
+              style="
+                font-family: 'Rubik';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 28px;
+              "
+            >
+              Fastest logistics company servicing Nigerian community.<br />
+              We deliver within 1 week.
+            </p>
+          </div>
+          <div>
+            <div class="icon">
+              <img
+                style="width: 20px; height: 20px; margin-right: 5px"
+                src="images/Shape.png"
+                alt=""
+              />Prcing
+            </div>
+            <p
+              style="
+                font-family: 'Rubik';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 28px;
+              "
+            >
+              We provide competitive pricing while moving twice as fast<br />
+              as our competitors.
+            </p>
+          </div>
+          <div>
+            <div class="icon">
+              <img
+                style="width: 20px; height: 20px; margin-right: 5px"
+                src="images/Shape.png"
+                alt=""
+              />Customer service
+            </div>
+            <p
+              style="
+                font-family: 'Rubik';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 28px;
+              "
+            >
+              We pay attention to our customers' needs and work
+              <br />
+              tirelessly to meet them.
+            </p>
+          </div>
+          <div>
+            <div class="icon">
+              <img
+                style="width: 20px; height: 20px; margin-right: 5px"
+                src="images/Shape.png"
+                alt=""
+              />Special Prices for Wholesaler
+            </div>
+            <p
+              style="
+                font-family: 'Rubik';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 28px;
+              "
+            >
+              We offer pocket-friendly rates for Clients who ship item in<br />
+              bulk with us.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Why You shoud chose us ends-->
+    <!--Services Part Begins-->
+    <div class="services" id="Services">
+      <p class="bold">Services</p>
+      <p class="subject">
+        We offer outstanding services on time,everytime<br />
+        at affordable rates.
+      </p>
+    </div>
+    <!--Service Cards-->
+    <div class="cards">
+      <div class="card1">
+        <img class="cardimg" src="images/Group.png" />
+        <p class="def1">Shipping to United States</p>
+        <p class="subscript">
+          We ship to the United State from Lagos,Nigeria within 7 to 12 working
+          days.
+        </p>
+      </div>
+      <div class="card2">
+        <img class="cardimg" src="images/XMLID_644_.png" />
+        <div class="def2">Shipping to Nigeria</div>
+        <div class="subscript">
+          We ship to the United State from Lagos,Nigeria within 7 to 12 working
+          days.
+        </div>
+      </div>
+      <div class="card3">
+        <img class="cardimg" src="images/Group (1).png" />
+        <div class="def3">Procurement</div>
+        <p style="margin: 36px auto auto" class="subscript">
+          Transform your products acquisition process. We help you shop for your
+          preferred items and ship to your destination within 7 to 12 working
+          days.
+        </p>
+      </div>
+    </div>
+    <!--Services Part Ends Here-->
+    <!--Shipment Calender starts here-->
+    <div class="shipmentcalenderfull" id="ShipmentCalender">
+      <div>
+        <div style="margin-top: 100px" class="bold">Shipment Calendar</div>
+        <div class="subject1">
+          Check out the dates we will be shipping from your City and send in
+          your items to our office.
+        </div>
+      </div>
+      <div class="fullcalender">
+        <!-- Left Part -->
+        <div class="shipmentcolumn">
+          <div class="selecteddiv">
+            <p>Houston to Lagos</p>
+          </div>
+          <div class="remainingdiv">
+            <p>Minneapolis to Lagos</p>
+          </div>
+          <div class="remainingdiv">
+            <p>Lagos to USA</p>
+          </div>
+          <div class="remainingdiv">
+            <p>Minneapolis to Lagos</p>
+          </div>
+          <div class="remainingdiv">
+            <p>Lagos to USA</p>
+          </div>
+        </div>
+        <div class="sliderrectangle"></div>
+        <!-- Calender Part -->
+        <div class="calender">
+          <div class="calender-head">
+            <!-- calender header -->
+            <div class="month">MAY 2022</div>
+            <img class="leftbutton" src="images/leftbutton.png" alt="" />
+            <img class="rightbutton" src="images/rightbutton.png" alt="" />
+          </div>
+          <div class="calendertable">
+            <div class="table">
+              <div class="weekday">SUN</div>
+              <div class="weekday">29</div>
+              <div class="weekday">6</div>
+              <div class="weekday">13</div>
+              <div class="weekday">20</div>
+              <div class="weekday">27</div>
+            </div>
+            <div class="table">
+              <div class="weekday">MON</div>
+              <div class="weekday">30</div>
+              <div class="weekday">7</div>
+              <div class="weekday">14</div>
+              <div class="weekday">21</div>
+              <div class="weekday">28</div>
+            </div>
+            <div class="table">
+              <div class="weekday">TUE</div>
+              <div class="weekday">1</div>
+              <div class="weekday">8</div>
+              <div class="weekday holiday">15</div>
+              <div class="weekday">22</div>
+              <div class="weekday">29</div>
+            </div>
+            <div class="table">
+              <div class="weekday">WED</div>
+              <div class="weekday">2</div>
+              <div class="weekday">9</div>
+              <div class="weekday">16</div>
+              <div class="weekday">23</div>
+              <div class="weekday">30</div>
+            </div>
+            <div class="table">
+              <div class="weekday">THU</div>
+              <div class="weekday">3</div>
+              <div class="weekday">10</div>
+              <div class="weekday holiday">17</div>
+              <div class="weekday">24</div>
+              <div class="weekday">31</div>
+            </div>
+            <div class="table">
+              <div class="weekday">FRI</div>
+              <div class="weekday">4</div>
+              <div class="weekday">11</div>
+              <div class="weekday holiday">18</div>
+              <div class="weekday holiday">25</div>
+              <div class="weekday"></div>
+            </div>
+            <div class="table">
+              <div class="weekday">SAT</div>
+              <div class="weekday">5</div>
+              <div class="weekday">12</div>
+              <div class="weekday">19</div>
+              <div class="weekday">26</div>
+              <div class="weekday"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- shipment calender end-->
+    <!--How it works start-->
+    <div class="hiw" id="HowItWorks">
+      <div class="hiwheading">How it works</div>
+      <br />
+      <div class="hiwsubheader">
+        The platform is hassle free and simple to use!
+      </div>
+      <div class="firstline">
+        <div class="part">
+          <div class="circle1">
+            <p class="num1">1</p>
+          </div>
+          <div class="dashed1"></div>
+          <div class="circle2">
+            <img
+              src="images/checklist 1.png"
+              alt=""
+              style="position: relative; left: 30px; top: 30px"
+            />
+          </div>
+        </div>
+        <div class="hiwbox1">
+          <div class="hiwboxheader">Drop off your shipment</div>
+          <div class="hiwboxtext">
+            Send in your items to our office or contact us for a pick up.Fill
+            our form to document your details which will include recipient info
+            and destination of shipment.
+          </div>
+        </div>
+      </div>
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="secondline">
+        <div class="part">
+          <div class="circle3">
+            <img
+              src="images/boxes 1.png"
+              alt=""
+              style="position: relative; left: 30px; top: 30px"
+            />
+          </div>
+          <div class="dashed2"></div>
+          <div class="circle4">
+            <p class="num2">2</p>
+          </div>
+        </div>
+        <div class="hiwbox2">
+          <div class="hiwboxheader">Pack & Ship</div>
+          <div class="hiwboxtext">
+            When your shipment arrives at our office, we will perform a final
+            inspection before sending it out to its final destination.
+          </div>
+        </div>
+      </div>
+      <div class="line3"></div>
+      <div class="thirdline">
+        <div class="part">
+          <div class="circle5">
+            <p class="num3">3</p>
+          </div>
+          <div class="dashed3"></div>
+          <div class="circle6">
+            <img
+              src="images/location 1.png"
+              alt=""
+              style="position: relative; left: 30px; top: 30px"
+            />
+          </div>
+        </div>
+        <div class="hiwbox3">
+          <div class="hiwboxheader">Track Shipment</div>
+          <div class="hiwboxtext3">
+            We would send updates as they are available.
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--How it works ends-->
+    <!-- Shipping pricing part starts -->
+    <br /><br />
+    <div class="sp" id="Pricing">
+      <div class="upper">
+        <div class="first">Shipping Pricing</div>
+        <br />
+        <div class="sec">Our shipping charges for the shipments</div>
+      </div>
+      <div class="main">
+        <div class="left">
+          <!-- <div class="intro"> -->
+          <div class="t1" style="text-align: Center;">Shipping from</div>
+          <div class="t2" style="text-align: Center;">Houston to Lagos</div>
+          <!-- </div> -->
+          <div class="t3" style="text-align: Center;">Price starting at
+            <span style="font-weight: bold ; color: red">$5</span>
+          </div>
+          <div class="line"></div>
+          <div class="t4" style="text-align: Center;">Contact Details</div>
+          <div class="t5" style="text-align: center;">12763 Capricorn St Suite
+            900,Stafford, TX 77477</div>
+          <a
+            href="https://api.whatsapp.com/send?phone=+13463819573?"
+            style="text-decoration: none;"
+          >
+            <div class="t6">
+              <div class="icon">
+                <img src="images/whatsapp.png" alt="" class="src" />
+              </div>
+              <span class="no">+1(346)3819573</span>
+            </div>
+          </a>
+        </div>
+        <div class="middle">
+          <!-- <div class="intro"> -->
+          <div class="t1" style="text-align: Center;">Shipping from</div>
+          <div class="t2" style="text-align: Center;">Minneapolis to Lagos</div>
+          <!-- </div> -->
+          <div class="t3" style="text-align: Center;">Price starting at
+            <span style="font-weight: 600 ; color: red">$6</span>
+          </div>
+          <div class="line"></div>
+          <div class="t4" style="text-align: Center;">Contact Details</div>
+          <div class="t5" style="text-align: Center;">3300 County Road 10
+            Brooklyn Center MN 55429, Suite 206</div>
+
+          <a
+            href="https://api.whatsapp.com/send?phone=+18329702740?"
+            style="text-decoration: none;"
+          >
+            <div class="t6">
+              <div class="icon"><img
+                  src="images/whatsapp.png"
+                  alt=""
+                  class="src"
+                /></div>
+              <div class="no">+1(832)9702740</div>
+            </div>
+          </a>
+        </div>
+        <div class="right">
+          <!-- <div class="intro"> -->
+          <div class="t1" style="text-align: Center;">Shipping from</div>
+          <div class="t2" style="text-align: Center;">Lagos to USA</div>
+          <!-- </div> -->
+          <div class="t3" style="text-align: Center;">Price starting at
+            <span style="font-weight: 600 ; color: red">$4,000</span>
+          </div>
+          <div class="line"></div>
+          <div class="t4" style="text-align: Center;">Contact Details</div>
+          <div class="t5" style="text-align: Center;">Shop D213 Ogba
+            Multiourpose Shopping Complex,Abiodun Jagun Street,Ogba, Lagos
+            25,Ajayi Road,Ogba,Lagos</div>
+          <a
+            href="https://api.whatsapp.com/send?phone=+239132457112?"
+            style="text-decoration: none;"
+          >
+            <div class="t6">
+              <div class="icon"><img
+                  src="images/whatsapp.png"
+                  alt=""
+                  class="src"
+                /></div>
+              <div
+                class="no"
+                style="text-decoration: none;"
+              >+23(913)2457112</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Shipping pricing part ends -->
+    <!-- lowest portion starts here.. -->
+    <div class="bottompart" id="OurLocation">
+      <div class="b_upper">
+        <div class="box1">
+          <div class="b_logo"><img
+              src="images/logo.png"
+              alt=""
+              class="src"
+            /></div>
+          <div class="text">Follow Us on</div>
+          <div class="icons">
+            <div class="icon1"><img
+                src="images/twitter_icn.png"
+                alt=""
+                class="src"
+              /></div>
+            <div class="icon2"><img
+                src="images/facebook_icn.png"
+                alt=""
+              /></div>
+            <div class="icon3"><img
+                src="images/Instagram - Positive.svg"
+                alt=""
+              /></div>
+            <div class="icon4"><img
+                src="images/linkedin_icn.png"
+                alt=""
+              /></div>
+          </div>
+        </div>
+        <div class="box2">
+          <div class="t1">Home</div>
+          <div class="t2">About Us</div>
+          <div class="t2">Pricing</div>
+        </div>
+        <div class="box3">
+          <div class="t1">Quick Links</div>
+          <div class="t2">Services</div>
+          <div class="t2">Shipping Calender</div>
+          <div class="t2">How It Works</div>
+        </div>
+        <div class="box4">
+          <div class="t1">Reach Us At</div>
+          <div class="smallbox">
+            <div class="icon"><img src="images/email (3) 1.png" alt="" /></div>
+            <div class="text">supports@ssaflogistics.com</div>
+          </div>
+          <a
+            href="https://api.whatsapp.com/send?phone=+13463819573?"
+            style="text-decoration: none;"
+          >
+            <div class="smallbox">
+              <div class="icon"><img
+                  src="images/phone-call (2) 1.png"
+                  alt=""
+                /></div>
+              <div class="text">+1 (346) 3819573</div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="middleline"></div>
+      <div class="b_lower">
+        <div class="copy1">&copy; SSAF. All Rights Reserved</div>
+        <div class="copy2">Terms & Conditions | &nbsp;Privacy Policy</div>
+      </div>
+    </div>
+    <!-- lowest portion ends here.. -->
+
+  </body>
+
+</html>
